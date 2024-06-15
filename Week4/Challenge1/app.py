@@ -9,8 +9,8 @@ app = Flask(__name__)
 # Ganti <username>, <password>, <cluster-url>, dan <dbname> dengan nilai yang sesuai
 connection_string = "mongodb+srv://ridwanmahenra:ridwanmahenra@cluster0.h2olati.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(connection_string, tls=True, tlsAllowInvalidCertificates=True)
-db = client['ridwan']  # Ganti 'nama_database' dengan nama database Anda
-collection = db['sensor_data']  # Koleksi untuk menyimpan data sensor
+db = client['week4']  # Ganti 'nama_database' dengan nama database Anda
+collection = db['challenge1']  # Koleksi untuk menyimpan data sensor
 
 # Endpoint untuk menyimpan data sensor
 @app.route('/sensor1', methods=['POST'])
