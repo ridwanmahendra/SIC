@@ -1,0 +1,15 @@
+exam_result_id,name,subject,score,exam_date
+111,Alice,Physics,9,2 February 2020
+112,Alice,Math,8,3 March 2020
+113,Alice,CS,6,1 January 2020
+114,Bob,Geography,5,2 February 2020
+115,Bob,Physics,7,1 January 2020
+116,Charles,Physics,,1 August 2020
+,,,,
+,,,,
+,,,,
+,,,,
+,name,average_score,,
+,Alice,7.666666667,,
+,Bob,6,,
+,Charles,,,
